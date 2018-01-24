@@ -49,6 +49,9 @@
 
 # eg. #$%^&*,Password?u?l?d?1 where #$%^&* -> ?1 is the input special character set.
 
+# if a mask is incapable of generating a password with the minimum set of required characters,
+# it is eliminated
+
 # The output file is intended to be run with hashcat to find a password solution to a particular hash or cipher
 
 
